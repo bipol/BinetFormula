@@ -1,9 +1,0 @@
-#
-#Bipol Alam
-#makefile
-#
-
-main.x : main.cpp binet.o 
-	g++ -o main.x -Wall -Wextra -I. main.cpp binet.o
-binet.o : binet.h binet.cpp
-	g++ -c -Wall -Wextra -I. binet.cpp
