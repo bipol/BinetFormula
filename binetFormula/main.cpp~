@@ -1,0 +1,18 @@
+/********************
+Bipol Alam
+main.cpp
+********************/
+#include <iostream>
+#include <binet.h>
+
+int main ()
+{
+  Binet a;
+  double x;
+  std::cout << "Enter n \n";
+  std::cin >> x;
+  a.setN(x);
+  std::cout << "Probably Wrong: " << a.round() << " \n";
+
+  return 0;
+}
